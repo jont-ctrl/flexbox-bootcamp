@@ -50,12 +50,15 @@ a:active {
 .flexChildMedium {
   margin: 0rem;
   padding: 1rem;
-  /* width: 100%; */
-  background-color: red;
 }
 
 .logoMediumMenu {
-  background-color: blue;
   margin-right: auto;
   margin-left: 1rem;
+}
+
+.menuMedium {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1rem;
 }
