@@ -6,21 +6,6 @@ body {
   text-align: center;
 }
 
-/* Meny Easy */
-
-.flexBoxEasy {
-  display: flex;
-  background-color: white;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.flexChildEasy {
-  margin: 0rem;
-  padding: 1rem;
-  width: 100%;
-}
-
 a {
   color: #000000;
   text-decoration: none;
@@ -36,6 +21,21 @@ a:hover {
 a:active {
   transform: scale(0.95);
   font-weight: bold;
+}
+
+/* Meny Easy */
+
+.flexBoxEasy {
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexChildEasy {
+  margin: 0rem;
+  padding: 1rem;
+  width: 100%;
 }
 
 /* Menu Medium*/
@@ -61,4 +61,40 @@ a:active {
   display: flex;
   justify-content: space-evenly;
   margin-right: 1rem;
+}
+
+/* Menu Hard */
+
+.flexBoxHard {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.menuHard {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menuHardChild {
+  padding: 1rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  border-radius: 1rem;
+  border: 2px solid black;
+  transition: background-color 0.1s, color 0.1s;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
