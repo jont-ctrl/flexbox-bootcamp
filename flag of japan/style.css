@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(0, 0%, 95%);
+  text-align: center;
+}
+
+main {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.japanFlag {
+  box-shadow: 1px 5px 15px hsla(0, 0%, 0%, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  width: 25rem;
+  height: 200px;
+}
+
+.flexChild {
+  background-color: #bc002d;
+  margin: 2rem;
+  padding: 4rem;
+  border-radius: 10000rem;
+}
